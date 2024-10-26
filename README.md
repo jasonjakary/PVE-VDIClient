@@ -79,7 +79,7 @@ Run the following commands on a Debian/Ubuntu Linux system to install the approp
     git clone https://github.com/jasonjakary/PVE-VDIClient.git
     cd ./PVE-VDIClient/
     chmod +x requirements.sh
-    ./requirements.sh
+    sudo ./requirements.sh
     cp vdiclient.py /usr/local/bin
     chmod +x /usr/local/bin/vdiclient.py
 
